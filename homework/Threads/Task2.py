@@ -4,3 +4,28 @@
 В основной части программы запустите поток с функцией и выполните задержку в 10 секунд.
 После выполнения программа должна написать "программа завершается"
 """
+
+import threading
+import time
+
+
+def reminder():
+    task = input("О чем напомнить? ")
+    seconds = int(input("Через сколько секунд напомнить? "))
+
+    time.sleep(seconds)
+
+    print(f"\nНапоминание: {task}")
+
+
+# Создаем поток с функцией reminder
+reminder_thread = threading.Thread(target=reminder)
+
+# Запускаем поток
+reminder_thread.start()
+
+# Задержка в 10 секунд
+time.sleep(10)
+
+# После выполнения задержки выводим сообщение
+print("Программа завершается")

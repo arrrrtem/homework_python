@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a53bae-3b6a-42e6-a3a3-793e5c93a607" name="Changes" comment="" />
+    <list default="true" id="40a53bae-3b6a-42e6-a3a3-793e5c93a607" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.AWK/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.AWK/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.AWK/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.AWK/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.AWK/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.AWK/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.Expect/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.Expect/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.Expect/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.Expect/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.Signals/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.Signals/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASH.Signals/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASH.Signals/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHCycles/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHCycles/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHCycles/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHCycles/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHCycles/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHCycles/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHCycles/Task4" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHCycles/Task4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHFunctions/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHFunctions/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHFunctions/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHFunctions/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHFunctions/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHFunctions/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHFunctions/Task4" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHFunctions/Task4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHInputOutput/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHInputOutput/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHInputOutput/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHInputOutput/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHInputOutput/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHInputOutput/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHInputOutput/Task4" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHInputOutput/Task4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task4" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task5" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHParamsAndKeys/Task5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHSed/Task1" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHSed/Task1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHSed/Task2" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHSed/Task2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/BASHSed/Task3" beforeDir="false" afterPath="$PROJECT_DIR$/homework/BASHSed/Task3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/CSV/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/CSV/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/CSV/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/CSV/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/CSV/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/CSV/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/CSV/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/CSV/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Compositions/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Compositions/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Data_processing/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Data_processing/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Data_processing/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Data_processing/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Data_processing/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Data_processing/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Data_processing/Task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Data_processing/Task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Database/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Database/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Database/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Database/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/DbRelationships/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/DbRelationships/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/DbRelationships/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/DbRelationships/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Encapsulation/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Encapsulation/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Encapsulation/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Encapsulation/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Exceptions/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Exceptions/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Exceptions/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Exceptions/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Exceptions/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Exceptions/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Files/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Files/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Files/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Files/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Files/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Files/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Generators/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Generators/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Generators/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Generators/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Generators/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Generators/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Generators/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Generators/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Inheritance/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Inheritance/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Inheritance/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Inheritance/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Inheritance/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Inheritance/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/JSON/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/JSON/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/JSON/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/JSON/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/JSON/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/JSON/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Lesson 2 (Cycles)/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Lesson 2 (Cycles)/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Lesson 3 (Lists)/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Methods/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Methods/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Methods/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Methods/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleOS/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleOS/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleOS/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleOS/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleOS/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleOS/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleOS/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleOS/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleSys/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleSys/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleSys/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleSys/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleSys/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleSys/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleSys/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleSys/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ModuleSys/Task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ModuleSys/Task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Pandas/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Pandas/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Parsing/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Parsing/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Polymorphism/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Polymorphism/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Polymorphism/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Polymorphism/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Processes/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Processes/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Processes/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Processes/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Processes/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Processes/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Processes/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Processes/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Pyqt/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Pyqt/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/PythonTasks/HTTP/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Selenium/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Selenium/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Selenium/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Selenium/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Sockets/Task1 client.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Sockets/Task1 client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Sockets/Task1 server.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Sockets/Task1 server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Sockets/Task2 client.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Sockets/Task2 client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Sockets/Task2 server.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Sockets/Task2 server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ThreadPool/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ThreadPool/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ThreadPool/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ThreadPool/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/ThreadPool/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/ThreadPool/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Files/file9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Files/file9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/Threads/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/Threads/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/YAML/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/YAML/Task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/YAML/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/YAML/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/YAML/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/YAML/Task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/YAML/Task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/YAML/Task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/dictTASKS/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/dictTASKS/Task1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +128,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9b8b85bb-8f20-4185-b068-4fbd9c7a5a8e" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2bXGd5AflH0n6xq9ObqyL4Ikm1q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +145,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Task1.executor": "Run",
+    "Python.Task2.executor": "Run",
+    "Python.Task3.executor": "Run",
+    "Python.Task4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowCommit.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/prmla/PycharmProjects/Homework/homework",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,5 +180,28 @@
       <updated>1706354095174</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

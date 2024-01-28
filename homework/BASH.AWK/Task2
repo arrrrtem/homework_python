@@ -1,1 +1,22 @@
 # Напишите скрипт который выводит периметр треугольника стороны которого даны в файле FileForTask2.txt
+
+def calculate_triangle_perimeter(a, b, c):
+    return a + b + c
+
+try:
+    with open('FileForTask2.txt', 'r') as file:
+        sides = [float(side.strip()) for side in file.readlines()]
+
+        if len(sides) == 3:
+            a, b, c = sides
+            perimeter = calculate_triangle_perimeter(a, b, c)
+            print(f"Периметр треугольника: {perimeter}")
+        else:
+            print("Ошибка: Файл должен содержать три стороны треугольника.")
+
+except FileNotFoundError:
+    print("Ошибка: Файл не найден.")
+except ValueError:
+    print("Ошибка: Некорректные данные в файле. Убедитесь, что все значения являются числами.")
+except Exception as e:
+    print(f"Произошла ошибка: {e}")

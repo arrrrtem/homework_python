@@ -7,3 +7,23 @@ PS отрывок текста - это вот этот текст что све
 PS2 для нахождения наиболее встречающегося символа можно использовать класс Counter из модуля collections
 и метод класса most_common().
 """
+
+
+from collections import Counter
+
+def top3(st):
+    # Убираем пробелы и создаем объект Counter для подсчета символов
+    counter = Counter(st.replace(" ", ""))
+
+    # Используем метод most_common(), чтобы получить три наиболее часто встречаемых символа
+    most_common_chars = counter.most_common(3)
+
+    # Формируем строку с результатами
+    result_string = ", ".join(f"{char} - {count} раз" for char, count in most_common_chars)
+
+    return result_string
+
+# Пример использования
+text = "На основании предоставленного отрывка текста определить 3 наиболее часто встречаемых символа в ней."
+result = top3(text)
+print(result)

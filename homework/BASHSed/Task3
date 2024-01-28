@@ -1,1 +1,16 @@
 # напишите скрипт который в файле FileForTask3.txt заменит все DATA на слово BASH
+
+#!/bin/bash
+
+filename="FileForTask3.txt"
+
+# Проверка существования файла
+if [ -e "$filename" ]; then
+    # Заменяем все вхождения "DATA" на "BASH" с использованием sed
+    sed -i 's/DATA/BASH/g' "$filename"
+    echo "Замена успешно выполнена в файле $filename."
+else
+    # Вывод сообщения об ошибке при отсутствии файла
+    echo "Файл $filename не найден."
+    exit 1
+fi

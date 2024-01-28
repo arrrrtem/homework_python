@@ -1,1 +1,20 @@
 # напишите скрипт который из csv файла выводит имя и звание в формате "Студент - *ИМЯ*, Звание - *ЗВАНИЕ*"
+
+import csv
+
+def read_csv_and_print(file_path):
+    try:
+        with open(file_path, newline='', encoding='utf-8') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                name = row.get('ИМЯ', '')
+                title = row.get('ЗВАНИЕ', '')
+                print(f"Студент - {name}, Звание - {title}")
+    except Exception as e:
+        print(f"Ошибка при чтении файла {file_path}: {e}")
+
+# Укажите путь к вашему CSV файлу
+csv_file_path = 'example.csv'
+
+# Вызов функции для чтения и вывода данных
+read_csv_and_print(csv_file_path)

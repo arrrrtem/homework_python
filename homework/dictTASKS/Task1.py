@@ -7,3 +7,4 @@ for i in range(1, 11):
 
 for key, value in Numbers.items():
     print('Ключ:', key, 'Значение:', value)
+

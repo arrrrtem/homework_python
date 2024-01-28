@@ -5,3 +5,10 @@
 name = input("введите свое имя")
 example = ["я","зовут","слон","Меня","журавль","и",name,"гений"]
 
+name = input("Введите свое имя: ")
+example = ["я", "зовут", "слон", "Меня", "журавль", "и", name, "гений"]
+
+formatted_string = "{} {} {}. {} {}, и {}. {} {}"
+result = formatted_string.format(*example)
+
+print(result)

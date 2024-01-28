@@ -6,3 +6,31 @@
 #Программа должна запрашивать ввод стоимости покупок пока пользователь не введет 0.
 #Считать общую стоимость, если она четная - проводить лотерею, если нет – выводить
 #Стоимость со скидкой 15%.
+
+def lottery_discount(total_cost):
+    while total_cost % 2 == 0:
+        total_cost //= 2
+
+    return total_cost
+
+def main():
+    total_cost = 0
+
+    while True:
+        try:
+            cost = float(input("Введите стоимость покупки (введите 0 для завершения): "))
+            if cost == 0:
+                break
+
+            total_cost += cost
+        except ValueError:
+            print("Ошибка: Введите корректное число.")
+
+    if total_cost % 2 == 0:
+        total_cost = lottery_discount(total_cost)
+        print(f"Победитель получает скидку. Стоимость со скидкой: {total_cost * 0.85:.2f}")
+    else:
+        print(f"Победитель оплачивает финальную нечетную сумму. К оплате: {total_cost:.2f}")
+
+if __name__ == "__main__":
+    main()

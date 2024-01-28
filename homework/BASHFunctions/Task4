@@ -4,3 +4,39 @@
 #Напишите функцию, принимающую в качестве единственного параметра
 #расстояние поездки в километрах и возвращающую итоговую сумму оплаты такси.
 # Решите задание рекурсивной функцией
+
+def taxi_payment(distance, base_rate=4.00, rate_per_km=0.25, km_per_charge=140):
+    if distance <= 0:
+        return 0
+    else:
+        # Рассчитываем оплату за текущий отрезок поездки
+        current_charge = base_rate + rate_per_km * min(distance, km_per_charge)
+
+        # Рекурсивно вызываем функцию для оставшейся части поездки
+        remaining_distance = max(0, distance - km_per_charge)
+        remaining_charge = taxi_payment(remaining_distance, base_rate, rate_per_km, km_per_charge)
+
+        # Суммируем текущую оплату и оплату за оставшуюся часть поездки
+        total_charge = current_charge + remaining_charge
+
+        return total_charge
+
+def main():
+    try:
+        # Ввод расстояния поездки в километрах
+        distance = float(input("Введите расстояние поездки в километрах: "))
+
+        # Проверка на корректное значение
+        if distance < 0:
+            print("Ошибка: Введите неотрицательное расстояние.")
+            return
+
+        # Вызов функции и вывод результата
+        result = taxi_payment(distance)
+        print(f"Итоговая сумма оплаты такси: ${result:.2f}")
+
+    except ValueError:
+        print("Ошибка: Введите корректное число для расстояния.")
+
+if __name__ == "__main__":
+    main()

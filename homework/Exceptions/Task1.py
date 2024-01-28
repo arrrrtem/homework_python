@@ -4,4 +4,11 @@
 """
 
 
-lst = ["Максим",12,14,"Олег","100"]
+my_list = [1, 2, 'three', 4, 5]
+
+for element in my_list:
+    try:
+        result = element / 3
+        print(result)
+    except (TypeError, ZeroDivisionError):
+        print("Невозможно разделить")

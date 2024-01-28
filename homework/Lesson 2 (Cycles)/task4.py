@@ -1,3 +1,3 @@
 while (a := input()) != "off":
-    print("Спасибо, ваш отзыв принят!")
-print("Система предпочтений настроена")
+    print("Thanks for your review!")
+print("System is ready")

@@ -3,7 +3,7 @@ a1 = []
 c = 0
 for i in range(3):
     if c == 0:
-        d = 'Введите свою фамилию: '
+        d = 'Enter your last name: '
     elif c == 1:
         d = 'Введите свою должность: '
     else:

@@ -12,3 +12,10 @@ task = {
         }
     ]
 }
+
+
+# Достаем имя из словаря
+name = task["kluch1"][1]["info2"][("not name","oleg","another name")]
+
+# Вывод результата
+print("Имя:", name)

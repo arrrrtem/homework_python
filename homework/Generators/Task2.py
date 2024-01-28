@@ -8,3 +8,23 @@ t = "Генератор – это итератор, элементы котор
 
 Написать функцию-генератор для выделения слов из этого текста (слова разделяются пробелом, либо переносом строки ‘\n’).
 """
+
+def word_generator(text):
+    current_word = ""
+    for char in text:
+        if char.isalnum() or char == '-':
+            current_word += char
+        elif current_word:
+            yield current_word
+            current_word = ""
+    if current_word:
+        yield current_word
+
+# Пример использования генератора
+text = """Генератор – это итератор, элементы которого
+можно перебирать (итерировать) только один раз.
+Итератор – это объект, который поддерживает функцию next()
+для перехода к следующему элементу коллекции."""
+
+for word in word_generator(text):
+    print(word)

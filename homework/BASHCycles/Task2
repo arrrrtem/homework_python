@@ -1,1 +1,12 @@
 #выведите отдельные слова из файла filefortask2.txt в столбик
+
+#!/bin/bash
+
+# Проверяем наличие файла
+if [ ! -f "filefortask2.txt" ]; then
+    echo "Ошибка: Файл filefortask2.txt не найден."
+    exit 1
+fi
+
+# Используем awk для разбивки текста на слова и вывода их построчно
+awk '{ for (i=1; i<=NF; i++) print $i }' filefortask2.txt

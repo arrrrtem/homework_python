@@ -1,4 +1,4 @@
-a = list(input('Введите оценки: '))
+a = list(input('Enter the marks: '))
 a = ([i for i in a if i != ' '])
 c = 0
 for i in a:

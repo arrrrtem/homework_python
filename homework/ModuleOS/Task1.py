@@ -4,3 +4,9 @@
 Имя компьютера - ХХХ
 Имя пользователя - ХХХ
 """
+
+import platform
+
+print(f"Операционная система - {platform.system()}")
+print(f"Имя компьютера - {platform.node()}")
+print(f"Имя пользователя - {platform.uname().node}")

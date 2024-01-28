@@ -1,1 +1,35 @@
 # Автоматизируйте работу ScriptForTask2.sh
+
+#!/bin/bash
+
+# Проверяем наличие аргументов
+if [ $# -lt 1 ]; then
+    echo "Использование: $0 <hostname>"
+    exit 1
+fi
+
+# Получаем имя хоста из аргументов командной строки
+hostname=$1
+
+# Используем expect для автоматического ввода пароля
+expect -c "
+spawn ssh $hostname
+expect \"password:\"
+send \"ZERNOVPASSWORD\n\"
+expect {
+    \"Permission denied\" {
+        puts \"Ошибка: Неверный пароль или проблемы с аутентификацией.\"
+        exit 1
+    }
+    \"Last login\" {
+        puts \"Подключение к $hostname успешно!\"
+        interact
+    }
+    timeout {
+        puts \"Ошибка: Время ожидания истекло.\"
+        exit 1
+    }
+}
+"
+
+exit 0
